@@ -26,8 +26,4 @@ export class AppComponent implements OnInit {
       language: new FormControl()
     });
   }
-
-  addJoke(event) {
-    console.log(event);
-  }
 }
